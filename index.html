@@ -3,15 +3,15 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Squad4</title>
-		<link rel="stylesheet" href="bootstrap/css/boostrap.min.css">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<div class="container">
-			<header class=" fond">
+		<div class="container-fluid fondo">
+			<header >
 				<div class="row">
 					<nav class="navbar  navbar-fixed-top">
 						<div class="navbar-header"><!--aqui empieza mi menu-->
@@ -21,6 +21,7 @@
 								<span class="icon-bar"></span>
 							</button>
 							<a href="#">Mi Portafolio</a>
+							<img src="" alt="">
 						</div>	
 						<div class="collapse navbar-collapse" id="myNavbar">
 							<ul class="nav navbar-nav navbar-right"><!--navegador con areas de mejora-->
@@ -35,48 +36,66 @@
 			</header>
 			<section>
 				<div class="row">
-					<div class="col-lg-7 img-responsive">
-						<img src="img/Codihtml.png" alt="squat">					
+					<div class="col-lg-7">
+						<img src="img/img.2.jpeg" class="squad img-responsive img-rounded" alt="squat">					
 					</div>
 					<div class="col-lg-5">
-						<p>
+						<p class="floar">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quibusdam quasi voluptatem totam aperiam dignissimos sunt maxime, voluptates doloremque dolorum illo dolore deserunt minima esse aut amet et earum rerum.
 						</p>
-						<p>
+						<p class="floar">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quibusdam quasi voluptatem totam aperiam dignissimos sunt maxime, voluptates doloremque dolorum illo dolore deserunt minima esse aut amet et earum rerum.
 						</p>
-						<p>
+						<p class="floar">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quibusdam quasi voluptatem totam aperiam dignissimos sunt maxime, voluptates doloremque dolorum illo dolore deserunt minima esse aut amet et earum rerum.
-						</p>
-						
-						
+						</p>		
 					</div>
 				</div>
+				<hr>
 			</section>
 			<section>
 				<div class="row">
 				<h2>Areas de mejora</h2>
 					<div class="col-lg-3">
-						<img src="img/daily.png" alt="daily">
-						<p>Al empezar el dia tenemos que hacer el Daily el cual tenemos que decir entre el equipo cuales son las cosas que nos hicieron falta o nos fallaron para mejorar. y que haremos en el dia  </p>
+						<img src="img/daily.png" class="img-responsive img-rounded imag" alt="daily">
+						<p class="clearfix">Al empezar el dia tenemos que hacer el Daily el cual tenemos que decir entre el equipo cuales son las cosas que nos hicieron falta o nos fallaron para mejorar. y que haremos en el dia  </p>
 						
 					</div>
 					<div class="col-lg-3">
-						<a href="https://trello.com/"><img src="img/trello.png" alt="trello"></a>
-						<p>En trello solamente hacemos checklist pero de ahi no tomamos otro punto interesante el cual debemos de ha blar entre equipo no solo por este medio sino que tambien fisicamente.</p>
+						<a href="https://trello.com/"><img src="img/trello.png" class="img-responsive img-rounded imag" alt="trello"></a>
+						<p class="clearfix">En trello solamente hacemos checklist pero de ahi no tomamos otro punto interesante el cual debemos de ha blar entre equipo no solo por este medio sino que tambien fisicamente.</p>
 						
 					</div>
 					<div class="col-lg-3">
-						<a href="https://github.com/"><img src="img/git.png" alt="github"></a>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat magnam totam, provident sint asperiores commodi ipsa veniam voluptatum beatae assumenda eveniet nam quas impedit voluptatem omnis, doloribus odio natus at!</p>
+						<a href="https://github.com/"><img src="img/git.png"  class="img-responsive img-rounded imag small" alt="github"></a>
+						<p class="clearfix">El problema con github es que todas sabemos utilizarlo con lo basico, y en gitbash tambien los comandos basicos.</p>
 						
 					</div>
 					<div class="col-lg-3">
-						<img src="img/Codihtml.png" alt="codigo">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quas, ipsum ipsa earum vel natus illum officiis neque dolores. Molestias tenetur velit atque impedit suscipit facere amet iste mollitia quod.</p>
+						<img src="img/html-logo.png" class="img-responsive img-rounded imag" id="img" alt="codigo">
+						<p class="clearfix">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quas, ipsum ipsa earum vel natus illum officiis neque dolores. Molestias tenetur velit atque impedit suscipit facere amet iste mollitia quod.</p>
 						
 					</div>
 				</div>
+				<hr>
+			</section>
+			<section>
+				<h2>Soluciones</h2>
+
+					<div class="row">
+						<div class="col-lg-4">
+							<iframe width="360" height="215" src="https://www.youtube.com/embed/FlUxUMCNwnA" frameborder="0" allowfullscreen></iframe>
+							<p>Aqui vemos como podermos tener una idea sobre la forma de organizacion en equipo</p>
+						</div>
+						<div class="col-lg-4">
+							<iframe width="360" height="215" src="https://www.youtube.com/embed/2lFY7E_bLvg" frameborder="0" allowfullscreen></iframe>
+							<p></p>
+						</div>
+						<div class="col-lg-4">
+							<iframe width="360" height="215" src="https://www.youtube.com/embed/E3usf4UdkAI" frameborder="0" allowfullscreen></iframe>
+							<p></p>
+						</div>
+					</div>
 			</section>
 			<section><!--seccion con video o imagenes y descripcion-->
 				<div class="row">
@@ -97,12 +116,15 @@
 						<div class="row">
 							<div class="col-lg-4">
 								<h4>Ana Paola</h4>
+								<img src="img/ana.png" alt="">
 							</div>
 							<div class="col-lg-4">
 								<h4>Berenice Aparicio</h4>
+								<img src="img/bere.png" alt="alumna">
 							</div>
 							<div class="col-lg-4">
 								<h4>Linda Guadalupe</h4>
+								<img src="img/linda.png" alt="alumna">
 							</div>
 						</div>
 							
@@ -113,12 +135,15 @@
 						<div class="row">
 							<div class="col-lg-4">
 								<h4>Mariana</h4>
+								<img src="img/mari.png" alt="alumna">
 							</div>
 							<div class="col-lg-4">
 								<h4>Nayelli</h4>
+								<img src="img/naye.png" alt="alumna">
 							</div>
 							<div class="col-lg-4">
 								<h4>Valleria</h4>
+								<img src="img/val.png" alt="alumna">
 							</div>
 						</div>
 							
