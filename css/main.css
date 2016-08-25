@@ -1,0 +1,9 @@
+a{
+	list-style: none;
+	display: inline-block;
+	text-decoration: none;
+
+}
+.fondo{
+	background-image: url("../img/rosa.png");
+}
