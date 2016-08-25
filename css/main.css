@@ -1,9 +1,12 @@
-.a{
 
+li{
 	display: inline-block;
 	list-style: none;
 }
+a{
+	color: lightskyblue;
+}
+
 .fondo{
-	background-image: url("../img/fondo-azul.jpg");
-	background-repeat: no-repeat;
+	background-color: black;
 }
