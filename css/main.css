@@ -1,9 +1,9 @@
-a{
-	list-style: none;
-	display: inline-block;
-	text-decoration: none;
+.a{
 
+	display: inline-block;
+	list-style: none;
 }
 .fondo{
-	background-image: url("../img/rosa.png");
+	background-image: url("../img/fondo-azul.jpg");
+	background-repeat: no-repeat;
 }
